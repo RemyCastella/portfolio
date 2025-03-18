@@ -26,6 +26,7 @@ header {
 
 section .content {
   padding: 3rem 0;
+  outline: 1px solid red;
 }
 
 h1 {

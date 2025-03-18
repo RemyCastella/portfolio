@@ -24,10 +24,6 @@ header {
     overflow: hidden;
 }
 
-section .content {
-    padding: 1.5rem 0;
-}
-
 h1 {
   font-size: 2rem;
 }
@@ -61,6 +57,7 @@ span.emphasis {
   border-bottom: 0.5rem solid var(--primary-color-t);
 }
 
+
 .container {
     max-width: 1200px;
     padding: 0 1.5rem;
@@ -86,7 +83,6 @@ span.emphasis {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .hero img {
@@ -97,6 +93,11 @@ span.emphasis {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+
+section .content {
+  padding: 1.5rem 0;
 }
 
 

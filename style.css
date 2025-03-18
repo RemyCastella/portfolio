@@ -65,7 +65,7 @@ span.emphasis {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .nav li {

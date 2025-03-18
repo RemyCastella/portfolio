@@ -171,12 +171,12 @@ section .content {
 
 .icon-links {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
 }
 
 .project-links {
+  justify-content: center;
   width: 100%;
   position: absolute;
   top: 0;

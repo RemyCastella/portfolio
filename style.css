@@ -24,12 +24,8 @@ header {
     overflow: hidden;
 }
 
-section {
+section .content {
   padding: 3rem 0;
-}
-
-section {
-  outline: 1px solid red;
 }
 
 h1 {
@@ -41,6 +37,7 @@ h2 {
 }
 
 a.btn {
+    align-self: flex-start;
     display: inline-block;
     padding: 1rem 1.5rem;
     margin-top: 1rem;
@@ -50,6 +47,10 @@ a.btn {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-weight: 600;
     border-radius: 0.5rem;
+}
+
+i {
+  font-size: 3.5rem;
 }
 
 span.emphasis {
@@ -88,9 +89,12 @@ span.emphasis {
   width: 224px;
 }
 
-.hero .text {
-  padding-left: 1.5rem;
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
+
 
 #about p {
   line-height: 1.5;
@@ -140,6 +144,55 @@ span.emphasis {
 .logos-slide img {
   height: 32px;
   margin: 0 1.5rem;
+}
+
+
+.project {
+  height: 50vh;
+}
+
+.mockup {
+  position: relative;
+  height: 25vh;
+  background-color: var(--tertiary-color);
+}
+
+.project-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: var(--secondary-color);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-links a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.mockup:hover .project-links {
+  opacity: 1;
+}
+
+.project .description {
+  padding: 1.5rem;
+}
+
+.description p {
+  margin-top: 1rem;
+}
+
+.description .tech-stack {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 

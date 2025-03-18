@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <script src="./app.js" defer></script>
     <title>Remy Castella</title>
@@ -20,7 +21,7 @@
               <li><a href="#contact">Contact</a></li>
           </ul>
           <div class="hero">
-            <div class="text">
+            <div class="left">
               <h1>Hi, I'm Remy 👋</h1>
               <a class="btn" href="./assets/RemyCastellaResume.pdf" download>Download CV</a>
             </div>
@@ -30,43 +31,86 @@
     </header>
     <section id="about">
         <div class="container">
-          <p>I'm passionate about building <span class="emphasis">digital solutions that transcend language and culture</span></p>
+          <div class="content">
+            <p>I'm a bilingual full stack developer, passionate about building <span class="emphasis">digital solutions that transcend language and culture</span></p>
+          </div>
         </div>
     </section>
     <section id="companies">
       <div class="container">
         <h2>Companies I've worked with (80+)</h2>
-        <div class="logos">
-          <div class="logos-slide">
-            <img class="logo" src="./assets/img/logos/base.svg" alt="base">
-            <img class="logo" src="./assets/img/logos/coconala.svg" alt="coconala">
-            <img class="logo" src="./assets/img/logos/jastec.png" alt="jastec">
-            <img class="logo" src="./assets/img/logos/haneda.svg" alt="handeda airport">
-            <img class="logo" src="./assets/img/logos/inpex.svg" alt="inpex">
-            <img class="logo" src="./assets/img/logos/jetro.svg" alt="jetro">
-            <img class="logo" src="./assets/img/logos/kaneka.png" alt="kaneka">
-            <img class="logo" src="./assets/img/logos/meguro.png" alt="meguro city">
-            <img class="logo" src="./assets/img/logos/minebea_mitsumi.svg" alt="minebeamitsumi">
-            <img class="logo" src="./assets/img/logos/morinaga.svg" alt="morinaga">
-            <img class="logo" src="./assets/img/logos/seibu_prince.svg" alt="seibu prince hotels">
-            <img class="logo" src="./assets/img/logos/seven_eleven.png" alt="seven eleven japan">
-            <img class="logo" src="./assets/img/logos/shimz.svg" alt="shimz corporation">
-            <img class="logo" src="./assets/img/logos/wealthnavi.svg" alt="wealthnavi">
-          </div>->
+        <div class="content">
+          <div class="logos">
+            <div class="logos-slide">
+              <img class="logo" src="./assets/img/logos/base.svg" alt="base">
+              <img class="logo" src="./assets/img/logos/coconala.svg" alt="coconala">
+              <img class="logo" src="./assets/img/logos/jastec.png" alt="jastec">
+              <img class="logo" src="./assets/img/logos/haneda.svg" alt="handeda airport">
+              <img class="logo" src="./assets/img/logos/inpex.svg" alt="inpex">
+              <img class="logo" src="./assets/img/logos/jetro.svg" alt="jetro">
+              <img class="logo" src="./assets/img/logos/kaneka.png" alt="kaneka">
+              <img class="logo" src="./assets/img/logos/meguro.png" alt="meguro city">
+              <img class="logo" src="./assets/img/logos/minebea_mitsumi.svg" alt="minebeamitsumi">
+              <img class="logo" src="./assets/img/logos/morinaga.svg" alt="morinaga">
+              <img class="logo" src="./assets/img/logos/seibu_prince.svg" alt="seibu prince hotels">
+              <img class="logo" src="./assets/img/logos/seven_eleven.png" alt="seven eleven japan">
+              <img class="logo" src="./assets/img/logos/shimz.svg" alt="shimz corporation">
+              <img class="logo" src="./assets/img/logos/wealthnavi.svg" alt="wealthnavi">
+            </div>->
+          </div>
         </div>
       </div>
   </section>
   <section id="projects">
-    <div class="container">
+    <div class="container projects">
       <h2>Personal projects</h2>
-      <div class="project">
-        <div class="description">
-          <h3>LabelWise</h3>
-          <p>Full-stack Ruby on Rails app allowing users to scan nutrition labels in any
-            language for a rapid breakdown of ingredients and other key information.</p>
+      <div class="content">
+        <div class="project">
+          <div class="mockup">
+            <div class="project-links">
+              <a href="#" target="_blank">
+                <i class="devicon-github-original-wordmark colored"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            <div class="text">
+              <h3>LabelWise</h3>
+              <p>Full-stack Ruby on Rails app allowing users to scan nutrition labels in any
+                language for a rapid breakdown of ingredients and other key information.</p>
+            </div>
+            <div class="tech-stack">
+              <i class="devicon-rails-plain-wordmark colored"></i>
+              <i class="devicon-postgresql-plain-wordmark colored"></i>
+            </div>
+          </div>
         </div>
-        <div class="tech-stack">
-          <i class="devicon-rails-plain-wordmark colored"></i>
+        <div class="project">
+          <div class="mockup">
+            <div class="project-links">
+              <a href="#" target="_blank">
+                <i class="devicon-github-original-wordmark colored"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            <div class="text">
+              <h3>ResumeWiz</h3>
+              <p>A resume builder with a React frontend and a Ruby on Rails API, allowing
+                users to create and edit professional resumes with a real-time preview.</p>
+            </div>
+            <div class="tech-stack">
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-rails-plain-wordmark colored"></i>
+              <i class="devicon-postgresql-plain-wordmark colored"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>

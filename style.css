@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 a {
@@ -54,7 +54,7 @@ a.btn {
 }
 
 i {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 span.emphasis {
@@ -100,10 +100,13 @@ span.emphasis {
 }
 
 
+section {
+  padding: 1rem 0;
+}
+
 section .content {
   padding: 1.5rem 0;
 }
-
 
 #about p {
   line-height: 1.5;
@@ -162,16 +165,19 @@ section .content {
 
 .mockup {
   position: relative;
-  height: 25vh;
+  height: 75vh;
   background-color: var(--tertiary-color);
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .project-links {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -181,6 +187,7 @@ section .content {
 }
 
 .project-links a {
+  font-size: 3.5rem;
   text-decoration: none;
   cursor: pointer;
   color: black;

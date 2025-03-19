@@ -90,11 +90,12 @@ span.emphasis {
 }
 
 .hero img {
-  min-width: 176px;
+  min-width: 168px;
   max-width: 55%;
 }
 
 .hero .left {
+  white-space: nowrap;
   line-height: 1.5;
   flex-grow: 1;
   display: flex;

@@ -191,12 +191,12 @@ section .content {
   top: 0;
   bottom: 0;
   background-color: var(--secondary-color-t);
-  opacity: 0;
+  display: none;
   transition: opacity 0.3s ease-in-out;
 }
 
 .project-links.active {
-  opacity: 1;
+  display: flex;
 }
 
 .project-links a {

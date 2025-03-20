@@ -167,12 +167,13 @@ section .content {
   min-height: 50vh;
 }
 
-.mockup {
+.project-image {
   position: relative;
   height: auto;
+  cursor: pointer;
 }
 
-.mockup img {
+.project-image img {
   display: block;
   width: 100%;
 }
@@ -194,15 +195,15 @@ section .content {
   transition: opacity 0.3s ease-in-out;
 }
 
+.project-links.active {
+  opacity: 1;
+}
+
 .project-links a {
   font-size: 3.5rem;
   text-decoration: none;
   cursor: pointer;
   color: black;
-}
-
-.mockup:hover .project-links {
-  opacity: 1;
 }
 
 .project .description {

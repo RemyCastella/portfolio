@@ -1,0 +1,1 @@
+Add click or other event to images to show links (hover doesn't work on mobile). Make it togglable (eg. show/hide links).

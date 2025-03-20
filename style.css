@@ -2,6 +2,7 @@
     --primary-color: rgb(2, 132, 199);
     --primary-color-t: rgba(2, 132, 199, 0.7);
     --secondary-color: rgb(156, 163, 175);
+    --secondary-color-t: rgba(156, 163, 175, 0.8);
     --tertiary-color: rgb(240, 249, 255);
 }
 
@@ -168,8 +169,13 @@ section .content {
 
 .mockup {
   position: relative;
-  height: 75vh;
-  background-color: var(--tertiary-color);
+  height: auto;
+}
+
+.mockup img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 .icon-links {
@@ -184,7 +190,7 @@ section .content {
   position: absolute;
   top: 0;
   bottom: 0;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-t);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }

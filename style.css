@@ -175,7 +175,6 @@ section .content {
 .mockup img {
   display: block;
   width: 100%;
-  object-fit: cover;
 }
 
 .icon-links {

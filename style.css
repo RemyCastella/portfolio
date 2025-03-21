@@ -72,7 +72,7 @@ a#flag {
 .progress-bar {
   height: 5px;
   background-color: var(--sky-400);
-  width: 10%;
+  width: 0%;
 }
 
 header {

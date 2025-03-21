@@ -97,6 +97,10 @@ i {
   font-size: 3rem;
 }
 
+i.contact {
+  font-size: 2.5rem;
+}
+
 span.emphasis {
   border-bottom: 0.5rem solid var(--sky-400);
 }
@@ -205,6 +209,10 @@ section .content {
 .icon-links {
   display: flex;
   gap: 2rem;
+}
+
+.icon-links a {
+  color: var(--slate-900);
 }
 
 .project-links {

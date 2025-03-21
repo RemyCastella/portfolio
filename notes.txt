@@ -1,1 +1,11 @@
-Add click or other event to images to show links (hover doesn't work on mobile). Make it togglable (eg. show/hide links).
+Cool ideas
+
+Border animation:
+https://www.youtube.com/watch?v=ezP4kbOvs_E
+https://www.letsbuildui.dev/articles/how-to-animate-borders-in-css/
+
+Scroll indicator:
+https://css-tricks.com/books/greatest-css-tricks/scroll-indicator/
+
+Button click animation:
+https://css-tricks.com/playing-with-particles-using-the-web-animations-api/

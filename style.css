@@ -65,13 +65,18 @@ a.btn {
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: var(--sky-400);
-    color: var(--tertiary-color);
+    color: var(--slate-200);
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 0.5rem;
     font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
 }
 
+a.btn:hover,
+a.btn:focus {
+    background-color: var(--sky-500);
+}
 
 i {
   font-size: 3rem;

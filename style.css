@@ -93,7 +93,8 @@ span.emphasis {
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
     padding: 1rem 0;
 }
 
@@ -106,7 +107,6 @@ span.emphasis {
     text-decoration: none;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-weight: 600;
-    padding: 0.5rem;
 }
 
 .hero {

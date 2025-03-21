@@ -2,12 +2,15 @@
     --sky-200: rgb(186, 230, 253);
     --sky-300: rgb(125, 211, 252);
     --sky-400: rgb(56, 189, 248);
+    --sky-400-50t: rgba(56, 189, 248, 0.5);
     --sky-500: rgb(14, 165, 233);
     --sky-600: rgb(2, 132, 199);
 
+    --slate-100: rgb(241, 245, 249);
     --slate-200: rgb(226, 232, 240);
     --slate-300: rgb(203, 213, 225);
     --slate-400: rgb(148, 163, 184);
+    --slate-400-50t: rgba(148, 163, 184, 0.5);
     --slate-500: rgb(100, 116, 139);
     --slate-600: rgb(71, 85, 105);
     --slate-700: rgb(51, 65, 85);
@@ -43,7 +46,7 @@ header {
     min-height: 50vh;
     background: var(--slate-500);
     overflow: hidden;
-    color: var(--slate-200);
+    color: var(--slate-100);
 }
 
 h1 {
@@ -65,7 +68,7 @@ a.btn {
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: var(--sky-400);
-    color: var(--slate-200);
+    color: var(--slate-100);
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 0.5rem;
@@ -83,7 +86,7 @@ i {
 }
 
 span.emphasis {
-  border-bottom: 0.5rem solid var(--primary-color-t);
+  border-bottom: 0.5rem solid var(--sky-400);
 }
 
 
@@ -94,7 +97,7 @@ span.emphasis {
 .nav {
     display: flex;
     justify-content: flex-end;
-    gap: 0.5rem;
+    gap: 1rem;
     padding: 1rem 0;
 }
 
@@ -103,7 +106,7 @@ span.emphasis {
 }
 
 .nav a {
-    color: var(--tertiary-color);
+    color: var(--slate-100);
     text-decoration: none;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-weight: 600;
@@ -116,7 +119,7 @@ span.emphasis {
 
 .hero img {
   min-width: 168px;
-  max-width: 55%;
+  max-width: 60%;
 }
 
 .hero .left {
@@ -125,7 +128,7 @@ span.emphasis {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 section {
@@ -175,17 +178,21 @@ section .content {
 
 .logos-slide {
   display: flex;
-  justify-content: space-around;
   flex-shrink: 0;
   min-width: 200%;
   animation: slide 60s linear infinite;
 }
 
 .logos-slide img {
-  height: 32px;
+  height: 2rem;
   margin: 0 1.5rem;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
 .project {
   min-height: 50vh;
@@ -193,7 +200,6 @@ section .content {
 
 .project-image {
   position: relative;
-  height: auto;
   cursor: pointer;
 }
 
@@ -204,17 +210,17 @@ section .content {
 
 .icon-links {
   display: flex;
-  align-items: center;
   gap: 2rem;
 }
 
 .project-links {
+  align-items: center;
   justify-content: center;
   width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
-  background-color: var(--secondary-color-t);
+  background-color: var(--slate-400-50t);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s ease-in-out;
@@ -237,11 +243,10 @@ section .content {
 }
 
 .description p {
-  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
 .description .tech-stack {
-  margin-top: 1rem;
   display: flex;
   gap: 1rem;
 }

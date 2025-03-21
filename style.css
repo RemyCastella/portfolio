@@ -59,6 +59,10 @@ nav {
     font-weight: 600;
 }
 
+a#flag {
+  font-size: 1.5rem;
+}
+
 .progress-container {
   width: 100%;
   height: 5px;

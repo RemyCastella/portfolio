@@ -329,6 +329,10 @@ section .content {
     max-width: 300px;
   }
 
+  .projects {
+    gap: 3rem;
+  }
+
   .project {
     display: flex;
     gap: 1.5rem;

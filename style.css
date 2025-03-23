@@ -33,7 +33,11 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     min-height: 100vh;
-    color: var(--slate-900)
+    color: var(--slate-900);
+}
+
+h1, h2, h3 {
+  color: var(--slate-800)
 }
 
 nav {
@@ -305,6 +309,10 @@ section .content {
     font-size: 2.5rem;
   }
 
+  h3 {
+    font-size: 2rem;
+  }
+
   #about p {
     font-size: 2rem;
   }
@@ -321,14 +329,21 @@ section .content {
     max-width: 300px;
   }
 
-  .projects {
+  .project {
     display: flex;
-    flex-direction: column;
     gap: 1.5rem;
   }
 
-  .project {
-    display: flex;
-    min-height: 50vh;
+  .project-image {
+    align-self: start;
   }
+
+  .project-image img {
+    width: 384px;
+  }
+
+  .project .description {
+    padding: 0;
+  }
+
 }

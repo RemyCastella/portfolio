@@ -334,6 +334,10 @@ section .content {
     gap: 1.5rem;
   }
 
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   .project-image {
     align-self: start;
   }

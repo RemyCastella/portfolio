@@ -36,10 +36,6 @@ body {
     color: var(--slate-900);
 }
 
-h1, h2, h3 {
-  color: var(--slate-800)
-}
-
 nav {
   position: sticky;
   top: 0;

@@ -152,7 +152,7 @@ section .content {
 }
 
 .hero img {
-  min-width: 168px;
+  min-width: 152px;
   max-width: 60%;
 }
 

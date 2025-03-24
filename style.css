@@ -87,6 +87,7 @@ header {
 }
 
 h1 {
+  color: var(--slate-100);
   font-size: 2.5rem;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
@@ -130,9 +131,23 @@ span.emphasis {
   border-bottom: 0.5rem solid var(--sky-300);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  padding: 0 1.5rem;
+  width: min(100%, 1200px);
+}
+
+section .content {
+  padding: 1.5rem 0;
+}
 
 .container {
-    max-width: 1200px;
+    padding: 1rem 0rem;
 }
 
 .hero {
@@ -154,13 +169,6 @@ span.emphasis {
   gap: 1rem;
 }
 
-section {
-  padding: 1rem 1.5rem;
-}
-
-section .content {
-  padding: 1.5rem 0;
-}
 
 #about p {
   line-height: 1.5;
@@ -300,9 +308,14 @@ section .content {
     font-size: 1.2rem;
   }
 
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
   h1 {
-  font-size: 5rem;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 5rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 
   h2 {
@@ -325,8 +338,21 @@ section .content {
     font-size: 3rem;
   }
 
+  .hero {
+    gap: 4rem;
+  }
+
+  .hero .left {
+    flex-grow: 0;
+  }
+
   .hero img {
     max-width: 300px;
+  }
+
+  .logos-slide img {
+    height: 3rem;
+    margin: 0 2rem;
   }
 
   .projects {
@@ -334,7 +360,9 @@ section .content {
   }
 
   .project {
+    align-items: flex-start;
     display: flex;
+    min-height: unset;
     gap: 1.5rem;
   }
 
@@ -343,14 +371,16 @@ section .content {
   }
 
   .project-image {
-    align-self: start;
+    flex-shrink: 0;
   }
 
   .project-image img {
-    width: 384px;
+    max-width: 440px;
+    max-height: 440px;
   }
 
   .project .description {
+    flex: 1;
     padding: 0;
   }
 

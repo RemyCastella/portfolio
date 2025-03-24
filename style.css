@@ -92,6 +92,14 @@ h2 {
   font-size: 1.75rem;
 }
 
+i {
+  font-size: 3rem;
+}
+
+i.contact {
+  font-size: 2.5rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -119,14 +127,6 @@ a.btn i {
 a.btn:hover,
 a.btn:focus {
     background-color: var(--sky-500);
-}
-
-i {
-  font-size: 3rem;
-}
-
-i.contact {
-  font-size: 2.5rem;
 }
 
 span.emphasis {

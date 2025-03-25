@@ -141,7 +141,7 @@ main {
 }
 
 section {
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
   width: min(100%, 1200px);
 }
 
@@ -300,7 +300,7 @@ section .content {
 
 @media (min-width: 480px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -332,6 +332,10 @@ section .content {
 
   h3 {
     font-size: 2rem;
+  }
+
+  section .content {
+    padding: 2rem 0;
   }
 
   #about p {

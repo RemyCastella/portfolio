@@ -89,7 +89,7 @@ header {
     padding: 1rem 1.5rem;
     background-image: linear-gradient(to bottom, var(--blue-950), white);
     overflow: hidden;
-    color: var(--slate-100);
+    color: white;
     position: relative;
 }
 

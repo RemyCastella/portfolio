@@ -135,7 +135,7 @@ a.btn i {
 
 a.btn:hover,
 a.btn:focus {
-    background-color: var(--sky-500);
+    background-color: var(--sky-400);
 }
 
 span.emphasis {
@@ -322,6 +322,7 @@ section .content {
   header {
     display: flex;
     justify-content: center;
+    outline: 1px solid red;;
   }
 
   section .content {
@@ -359,11 +360,13 @@ section .content {
   }
 
   .hero {
-    gap: 4rem;
+    /* gap: 4rem; */
+    outline: 1px solid red;
+    width: 100%;
   }
 
   .hero .left {
-    flex-grow: 0;
+    flex-grow: 1;
   }
 
   .hero img {

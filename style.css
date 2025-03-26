@@ -7,6 +7,8 @@
     --sky-600: rgb(2, 132, 199);
     --sky-700: rgb(7, 89, 133);
 
+    --blue-950: rgb(23, 37, 84);
+
     --slate-100: rgb(241, 245, 249);
     --slate-200: rgb(226, 232, 240);
     --slate-300: rgb(203, 213, 225);
@@ -43,7 +45,7 @@ nav {
   top: 0;
   display: flex;
   flex-direction: column;
-  background: var(--slate-800);
+  background: var(--blue-950);
   z-index: 3;
 }
 
@@ -72,7 +74,7 @@ a#flag {
 .progress-container {
   width: 100%;
   height: 8px;
-  background-color: var(--slate-800);
+  background-color: var(--blue-950);
 }
 
 .progress-bar {
@@ -82,8 +84,8 @@ a#flag {
 }
 
 header {
-    padding: 0 1.5rem;
-    background-image: linear-gradient(to bottom, var(--slate-800), white);
+    padding: 1rem 1.5rem;
+    background-image: linear-gradient(to bottom, var(--blue-950), white);
     overflow: hidden;
     color: var(--slate-100);
     position: relative;

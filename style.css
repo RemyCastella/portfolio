@@ -163,8 +163,6 @@ section .content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
   width: min(100%, 1200px);
 }
 
@@ -315,6 +313,10 @@ section .content {
 @media (min-width: 480px) {
   h1 {
     font-size: 3.5rem;
+  }
+
+  .hero {
+    gap: 1rem;
   }
 }
 

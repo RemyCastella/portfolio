@@ -60,6 +60,10 @@ nav {
     font-weight: 600;
 }
 
+.nav-links a:hover {
+  color: var(--sky-400);
+}
+
 a#flag {
   font-size: 1.5rem;
 }

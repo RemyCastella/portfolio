@@ -161,6 +161,7 @@ section .content {
   display: flex;
   align-items: center;
   gap: 1rem;
+  width: min(100%, 1200px);
 }
 
 .hero img {
@@ -322,7 +323,6 @@ section .content {
   header {
     display: flex;
     justify-content: center;
-    outline: 1px solid red;;
   }
 
   section .content {
@@ -360,9 +360,7 @@ section .content {
   }
 
   .hero {
-    /* gap: 4rem; */
-    outline: 1px solid red;
-    width: 100%;
+    padding: 0rem 4rem;
   }
 
   .hero .left {

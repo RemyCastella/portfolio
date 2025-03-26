@@ -41,7 +41,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     min-height: 100vh;
-    color: var(--slate-900);
+    color: var(--blue-950);
 }
 
 nav {
@@ -295,8 +295,10 @@ section .content {
 }
 
 .project .description {
-  padding: 1.5rem 0;
+  padding: 1rem 1rem;
   background-color: var(--sky-100);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .description p {

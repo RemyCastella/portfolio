@@ -405,9 +405,10 @@ section .content {
   }
 
   .project {
-    align-items: stretch;
+    align-items: flex-start;
     display: flex;
     min-height: unset;
+    gap: 1.5rem;
   }
 
   .project:nth-child(even) {
@@ -425,18 +426,11 @@ section .content {
 
   .project .description {
     padding: 1.5rem;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-radius: 0.5rem;
   }
 
   .project:nth-child(even) .description {
     flex-direction: row-reverse;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .tech-stack {
-    margin-top: auto;
   }
 
 }

@@ -103,6 +103,13 @@ span.h1-small {
   font-size: 1.5rem;
 }
 
+span.hand {
+  display: inline-block;
+  font-size: 2rem;
+  animation: wave 2s ease-in-out;
+  transform-origin: 70% 70%;
+}
+
 h2 {
   font-size: 1.75rem;
 }
@@ -309,6 +316,15 @@ section .content {
   to {
     transform: translateX(-50%);
   }
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(20deg); }
+  40% { transform: rotate(-15deg); }
+  60% { transform: rotate(20deg); }
+  80% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
 }
 
 

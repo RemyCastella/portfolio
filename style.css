@@ -391,7 +391,7 @@ section .content {
   }
 
   .hero {
-    width: 80%;
+    max-width: 768px;
   }
 
   .hero img {

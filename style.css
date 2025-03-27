@@ -217,10 +217,6 @@ section .content {
   right: 0;
 }
 
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
 .logos-slide {
   display: flex;
   flex-shrink: 0;

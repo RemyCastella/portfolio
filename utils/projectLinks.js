@@ -1,6 +1,5 @@
 const projectLinks = () => {
 
-  const logosContainer = document.querySelector('.logos-slide');
   const projectImage = document.querySelectorAll('.project-image');
   const projectLinks = document.querySelectorAll('.project-links');
 
@@ -9,12 +8,6 @@ const projectLinks = () => {
       projectLinks[index].classList.toggle('active');
     })
   });
-
-
-  document.querySelectorAll('.logo').forEach(logo => {
-    const clone = logo.cloneNode(true);
-    logosContainer.appendChild(clone);
-  })
 
 }
 

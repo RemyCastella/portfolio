@@ -132,7 +132,7 @@ a.btn {
   font-weight: 600;
   transition: 0.1s ease-in-out;
   box-shadow: 0 1px 3px var(--sky-700),
-              inset 0 1px 0 var(--sky-300);
+              inset 0 1px 0 var(--sky-400);
 }
 
 a.btn i {
@@ -143,6 +143,8 @@ a.btn i {
 a.btn:hover,
 a.btn:focus {
     background-color: var(--sky-400);
+    box-shadow: 0 1px 3px var(--sky-700),
+    inset 0 1px 0 var(--sky-300);
 }
 
 span.emphasis {

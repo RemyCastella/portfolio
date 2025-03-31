@@ -1,0 +1,4 @@
+To do:
+
+3. Try removing JS for company logo section to fix glitch
+4. Create a booklog section
